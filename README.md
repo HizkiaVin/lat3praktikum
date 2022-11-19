@@ -14,6 +14,7 @@ else :
     print("Nilai Sama")
 ```
 Maka outputnya adalah: 
+\>
 ![if latihan 1 1](https://user-images.githubusercontent.com/116176746/202186022-54542051-649b-4ec1-a56c-73c1d015a1f5.png)
 
 >*if* merupakan kondisi utama, sedangkan *elif* adalah kondisi kedua atau ketiga hingga ke-x, sedangkan *else* adalah kondisi terakhir di mana semua kondisi sebelumnya tidak ada yang terpenuhi.
@@ -39,5 +40,6 @@ print("Urutan bilangan:", data)
 
 
 Maka output yang akan ditampilkan:
+
 ![sort 1](https://user-images.githubusercontent.com/116176746/202194829-bee29cb8-9e53-4fe8-a11c-d934e505b068.png)
 > `list.sort` berfungsi untuk mengurutkan data. 
