@@ -1,4 +1,5 @@
 # Kondisional dan Perulangan
+## **Struktur Kondisi**
 ## Latihan 1
 Buat program sederhana dengan input 2 buah bilangan, kemudian tentukan bilangan terbesar dari kedua bilangan tersebut menggunakan statement if.
 Code:
@@ -43,3 +44,33 @@ Maka output yang akan ditampilkan:
 
 ![sort 1](https://user-images.githubusercontent.com/116176746/202194829-bee29cb8-9e53-4fe8-a11c-d934e505b068.png)
 > `list.sort` berfungsi untuk mengurutkan data. 
+
+## **Perulangan**
+## Latihan 1
+Buat program dengan perulangan bertingkat (nested) for yang
+menghasilkan output sebagai berikut:
+
+![darkmodelat3](https://user-images.githubusercontent.com/116176746/202855701-3d0c3631-a022-4f51-84c3-b4556fa11e9a.png)
+
+
+Code:
+```python
+start = 0;
+finish = 10;
+
+for i in list(range(10)):
+    for j in range(start,finish):
+            print(j, end=' ')
+            if j < 10:
+                print('{0:>2}' .format(""), end="")
+            else :
+                print('{0:>1}' .format(""), end="")
+    start+=1
+    finish+=1
+    print("")
+```
+Maka output yang akan ditampilkan:
+
+![outputnested](https://user-images.githubusercontent.com/116176746/202856480-0d336411-6612-4d85-a5ac-4ba0413ecfc8.png)
+
+>Perulangan bersarang atau perulangan bertingkat adalah sebuah perulangan yang berada atau terletak di dalam perulangan yang lain.
