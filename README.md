@@ -15,10 +15,11 @@ else :
     print("Nilai Sama")
 ```
 Maka outputnya adalah: 
-\>
-![if latihan 1 1](https://user-images.githubusercontent.com/116176746/202186022-54542051-649b-4ec1-a56c-73c1d015a1f5.png)
+\
+<marquee>![if latihan 1 1](https://user-images.githubusercontent.com/116176746/202186022-54542051-649b-4ec1-a56c-73c1d015a1f5.png)</marquee>
 
 >*if* merupakan kondisi utama, sedangkan *elif* adalah kondisi kedua atau ketiga hingga ke-x, sedangkan *else* adalah kondisi terakhir di mana semua kondisi sebelumnya tidak ada yang terpenuhi.
+
 
 ## Latihan 2
 Buat program untuk mengurutkan data berdasarkan input sejumlah data (minimal 3 variable input atau lebih), kemudian tampilkan
@@ -42,7 +43,7 @@ print("Urutan bilangan:", data)
 
 Maka output yang akan ditampilkan:
 
-![sort 1](https://user-images.githubusercontent.com/116176746/202194829-bee29cb8-9e53-4fe8-a11c-d934e505b068.png)
+<marquee>![sort 1](https://user-images.githubusercontent.com/116176746/202194829-bee29cb8-9e53-4fe8-a11c-d934e505b068.png)</marquee>
 > `list.sort` berfungsi untuk mengurutkan data. 
 
 ## **Perulangan**
@@ -54,6 +55,7 @@ menghasilkan output sebagai berikut:
 
 
 Code:
+
 ```python
 start = 0;
 finish = 10;
@@ -71,6 +73,38 @@ for i in list(range(10)):
 ```
 Maka output yang akan ditampilkan:
 
-![outputnested](https://user-images.githubusercontent.com/116176746/202856480-0d336411-6612-4d85-a5ac-4ba0413ecfc8.png)
+<marquee>![outputnested](https://user-images.githubusercontent.com/116176746/202856480-0d336411-6612-4d85-a5ac-4ba0413ecfc8.png)</marquee>
 
 >Perulangan bersarang atau perulangan bertingkat adalah sebuah perulangan yang berada atau terletak di dalam perulangan yang lain.
+
+## Latihan 2
+Program Menampilkan N Bilangan Acak Yang Lebih Kecil Dari 0.5
+\
+Code:
+```python   
+import random
+
+jumlah= int(input("Masukkan nilai N :"))
+j = 0
+for i in range(jumlah):
+    i = random.uniform(0.0,0.5)
+    j+= 1
+    print("Masukkan data ke",j, '==>',i)
+
+jawab ="benar"
+hitung = 0
+while jawab == "benar":
+    hitung += 1
+    jawab =input("SELESAI")
+```
+> sebelum memasukkan kode, kita harus mengimport fungsi random terlebih dahulu.
+
+Maka outputnya akan seperti ini: 
+<marquee>![output latihan1](https://user-images.githubusercontent.com/116176746/200994857-5e393f83-642d-4b55-9079-56d33747f5aa.png)</marquee>
+
+>**_for_** disebut juga sebagai counted loop (perulangan yang terhitung), yaitu
+perintah yang dieksekusi secara berulang berdasarkan jumlah perulangan tertentu.
+\
+\
+*__while__* disebut uncounted loop (perulangan yang tak terhitung), yaitu perulangan
+yang dilakukan berdasarkan kondisi tertentu selama nilai kondisi bernilai TRUE.
