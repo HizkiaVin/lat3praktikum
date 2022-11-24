@@ -141,6 +141,4 @@ print("Keterangan :",keterangan)
 
 Maka output yang ditampilkan:
 
-![modul2latihan1](image/modul2latihan1.png)
-
-.....
+![modul2latihan1](https://user-images.githubusercontent.com/116176746/203676195-b01f871b-b82e-40e5-9680-c2a1caef760b.png)
