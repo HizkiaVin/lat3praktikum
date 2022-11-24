@@ -142,3 +142,5 @@ print("Keterangan :",keterangan)
 Maka output yang ditampilkan:
 
 ![modul2latihan1](image/modul2latihan1.png)
+
+.....
